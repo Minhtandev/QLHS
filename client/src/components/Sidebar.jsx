@@ -135,58 +135,58 @@ const Sidebar = ({ nodeRef = "", handleShow = () => {} }) => {
                       },
                     ],
                   },
-                  // {
-                  //   title: "Báo cáo",
-                  //   itemId: "/report",
-                  //   elemBefore: () => (
-                  //     <img src={File} alt="" /> //<i class="fa-solid fa-file-lines"></i>
-                  //   ),
-                  //   subNav: [
-                  //     {
-                  //       title: "Báo cáo môn học",
-                  //       itemId: "/report/report-subject",
-                  //       // Requires v1.9.1+ (https://github.com/abhijithvijayan/react-minimal-side-navigation/issues/13)
-                  //     },
-                  //     {
-                  //       title: "Báo cáo học kỳ",
-                  //       itemId: "/report/report-term",
-                  //     },
-                  //   ],
-                  // },
-                  // {
-                  //   title: "Thay đổi quy định",
-                  //   itemId: "/setting",
-                  //   elemBefore: () => (
-                  //     <img src={Setting} alt="" />
-                  //     //<i class="fa-solid fa-gears"></i>
-                  //   ),
-                  //   subNav: [
-                  //     {
-                  //       title: "Danh sách tham số",
-                  //       itemId: "/setting/setting-list",
-                  //       // Requires v1.9.1+ (https://github.com/abhijithvijayan/react-minimal-side-navigation/issues/13)
-                  //     },
-                  //     {
-                  //       title: "Danh sách lớp",
-                  //       itemId: "/setting/class-list",
-                  //     },
-                  //     {
-                  //       title: "Danh sách môn học",
-                  //       itemId: "/setting/subject-list",
-                  //     },
-                  //     {
-                  //       title: "Danh sách tài khoản",
-                  //       itemId: "/setting/user",
-                  //     },
-                  //   ],
-                  // },
-                  // {
-                  //   title: "Đăng xuất",
-                  //   itemId: "/login",
-                  //   elemBefore: () => (
-                  //     <img src={People} alt="" /> //<i class="fa-solid fa-user-graduate"></i>
-                  //   ),
-                  // },
+                  {
+                    title: "Báo cáo",
+                    itemId: "/report",
+                    elemBefore: () => (
+                      <img src={File} alt="" /> //<i class="fa-solid fa-file-lines"></i>
+                    ),
+                    subNav: [
+                      {
+                        title: "Báo cáo môn học",
+                        itemId: "/report/report-subject",
+                        // Requires v1.9.1+ (https://github.com/abhijithvijayan/react-minimal-side-navigation/issues/13)
+                      },
+                      {
+                        title: "Báo cáo học kỳ",
+                        itemId: "/report/report-term",
+                      },
+                    ],
+                  },
+                  {
+                    title: "Thay đổi quy định",
+                    itemId: "/setting",
+                    elemBefore: () => (
+                      <img src={Setting} alt="" />
+                      //<i class="fa-solid fa-gears"></i>
+                    ),
+                    subNav: [
+                      {
+                        title: "Danh sách tham số",
+                        itemId: "/setting/setting-list",
+                        // Requires v1.9.1+ (https://github.com/abhijithvijayan/react-minimal-side-navigation/issues/13)
+                      },
+                      {
+                        title: "Danh sách lớp",
+                        itemId: "/setting/class-list",
+                      },
+                      {
+                        title: "Danh sách môn học",
+                        itemId: "/setting/subject-list",
+                      },
+                      {
+                        title: "Danh sách tài khoản",
+                        itemId: "/setting/user",
+                      },
+                    ],
+                  },
+                  {
+                    title: "Đăng xuất",
+                    itemId: "/login",
+                    elemBefore: () => (
+                      <img src={People} alt="" /> //<i class="fa-solid fa-user-graduate"></i>
+                    ),
+                  },
                 ]}
               />
             )}
