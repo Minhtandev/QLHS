@@ -1,8 +1,17 @@
 @use "../../scss/" as *;
+
 .report-subject {
   font-size: $content-fontsize;
   font-weight: 700;
   line-height: 23px;
+
+  &>h3 {
+    margin-left: 45px;
+  }
+
+  &>.guide {
+    margin-left: 45px;
+  }
 
   .grid {
     .row {
