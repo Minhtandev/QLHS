@@ -17,8 +17,20 @@ hr {
 
 .create-class {
 	@include main-container;
+
+	.search-page {
+		&>h3 {
+			margin-left: 30px;
+		}
+
+		&>.guide {
+			margin-left: 30px;
+		}
+	}
+
 	.search__add-btn {
 		background: none;
+
 		i {
 			cursor: pointer;
 			font-size: 20px;
@@ -39,6 +51,7 @@ hr {
 	.option__input {
 		align-self: flex-end;
 		margin: 10px 25px;
+
 		.search__btns {
 			.search__button {
 				margin: 0;
@@ -53,6 +66,7 @@ hr {
 
 	.search__btns {
 		text-align: left;
+
 		.search__button {
 			margin-left: 35px;
 			margin-bottom: 30px;
@@ -74,6 +88,7 @@ hr {
 	@include manage();
 	@include main-container;
 	justify-content: center;
+
 	.search__input {
 		margin-left: 25px;
 		margin-bottom: 30px;
@@ -86,6 +101,7 @@ hr {
 	.class-info {
 		@include flex(center, center);
 		margin-bottom: 10px;
+
 		h5 {
 			margin-left: 12px;
 			margin-right: 12px;
@@ -121,6 +137,7 @@ hr {
 
 	.save-btn__container {
 		@include flex(center, center);
+
 		.save-btn--small {
 			width: 80px;
 			padding: 8px;
@@ -142,7 +159,7 @@ hr {
 		&.heading {
 			@include heading();
 
-			& > .item {
+			&>.item {
 				@include heading-item();
 			}
 		}
@@ -151,7 +168,7 @@ hr {
 			padding-top: 14px;
 			padding-bottom: 10px;
 
-			& > .item {
+			&>.item {
 				justify-content: center;
 				display: -webkit-box;
 				overflow: hidden;
@@ -173,10 +190,12 @@ hr {
 	.new-class__delete-btn {
 		background: none;
 	}
+
 	.btns {
 		margin-top: 30px;
 		margin-bottom: 30px;
 		margin-left: 25px;
+
 		// text-align: right;
 		// button {
 		//   margin-right: 40px;

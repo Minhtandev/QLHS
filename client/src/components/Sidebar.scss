@@ -11,12 +11,13 @@
 	flex-direction: column;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	color: #050505;
+
 	span {
 		font-size: 18px;
 	}
 
 	.logo {
-		margin: 30px auto 50px 20px;
+		margin: 0px auto 0px 20px;
 		position: relative;
 		@include flex(center, center);
 
@@ -25,6 +26,7 @@
 			width: 100px;
 			height: 100px;
 		}
+
 		h2 {
 			background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
 			-webkit-background-clip: text;
@@ -55,6 +57,7 @@
 }
 
 .sidebar__menu {
+
 	.home,
 	.add,
 	.list,
@@ -66,15 +69,17 @@
 		flex-wrap: wrap;
 		position: relative;
 		cursor: pointer;
-		& > img {
+
+		&>img {
 			margin: 20px 18px 20px 35px;
 		}
 
-		& > i {
+		&>i {
 			margin: 20px 22px 20px 35px;
 			font-size: 20px;
 			color: #fff;
 		}
+
 		li {
 			// color: $text-color;
 			color: #050505;
@@ -83,7 +88,7 @@
 			flex: 1;
 		}
 
-		div > img {
+		div>img {
 			padding-right: 20px;
 		}
 	}
@@ -102,7 +107,7 @@
 //   }
 // }
 
-.sidebar__menu > a.active {
+.sidebar__menu>a.active {
 	font-weight: 700;
 }
 
@@ -116,7 +121,7 @@
 //   }
 // }
 
-.sidebar__menu > a:hover {
+.sidebar__menu>a:hover {
 	background-color: $sidebar-hover-color;
 }
 
@@ -143,13 +148,13 @@
 	display: flex;
 	flex-direction: column;
 
-	& > li:hover {
+	&>li:hover {
 		// background-color: $sidebar-hover-color;
 		background-color: rgba(#f2f2f2, 0.25);
 		// font-weight: 700;
 	}
 
-	& > li.active {
+	&>li.active {
 		// background-color: $sidebar-hover-color;
 		font-weight: 700;
 	}

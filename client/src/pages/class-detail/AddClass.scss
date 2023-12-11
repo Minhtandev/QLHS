@@ -1,8 +1,18 @@
 @use "../../scss/" as *;
+
 .add-class {
 	font-size: $content-fontsize;
 	font-weight: 700;
 	line-height: 23px;
+
+	.guide {
+		margin-left: 45px;
+	}
+
+	&>h3 {
+		margin-left: 45px;
+	}
+
 	.grid {
 		.row {
 			@include grid-2();
@@ -19,6 +29,7 @@
 .grid__item {
 	display: flex;
 	flex-direction: column;
+
 	label {
 		margin-left: 15px;
 		margin-bottom: 12px;

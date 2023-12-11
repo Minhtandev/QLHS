@@ -16,8 +16,8 @@ import Setting from "../assets/Setting.png";
 // import { Routes } from "../config/Routes";
 import { useHistory, useLocation } from "react-router-dom";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
-import "./Sidebar.scss";
 import "./Sidebar_Lib.scss";
+import "./Sidebar.scss";
 
 const Sidebar = ({ nodeRef = "", handleShow = () => {} }) => {
   const history = useHistory();
